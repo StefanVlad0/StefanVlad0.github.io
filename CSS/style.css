@@ -1,0 +1,93 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.wrapper {
+    width: 100%;
+}
+
+.img-banner {
+    display: none;
+}
+
+.info {
+    width: 100%;
+}
+
+.info h2 {
+    border-left: 3px solid red;
+    font-family: Ubuntu;
+    padding: 20px 5px;
+    background-image: linear-gradient(to right, rgba(255,0,0,0.3), rgba(255,0,0,0));
+    margin-bottom: 20px;
+}
+
+.info h1 {
+    font-family: Ubuntu;
+    text-align: center;
+    padding: 50px 10px 50px;
+    line-height: 44px;
+}
+
+.info p {
+    padding: 10px 30px 40px;
+    text-indent: 30px;
+    font-family: Lora;
+}
+
+.images {
+    width: 100%;
+}
+
+@media only screen and (min-width: 768px) {
+    .img-banner {
+        display: block;
+        width: 100%;
+    }
+
+    .wrapper {
+        width: 80%;
+        margin: 0 auto;
+    }
+
+    .info h1 {
+        line-height: 50px;
+        font-size: 40px;
+        padding-top: 60px;
+        padding-bottom: 60px;
+    }
+
+    .info h2 {
+        font-size: 30px;
+    }
+
+    .info p {
+        padding: 10px 0px 50px;
+        text-indent: 50px;
+        font-size: 25px;
+    }
+}
+
+@media only screen and (min-width: 1025px) {
+    .img-banner {
+        height: 250px;
+    }
+    .info h2 {
+        margin-top:20px;
+    }
+    .wrapper {
+        width: 90%;
+        margin: 0 auto;
+    }
+
+    .info p {
+        width: 100%;
+        
+    }
+
+    .images {
+        width: 60%;
+        text-align: center;
+    }
+}
